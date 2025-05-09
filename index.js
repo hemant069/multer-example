@@ -2,7 +2,7 @@ const express = require("express");
 const multer = require("multer");
 const path = require("path");
 const app = express();
-
+// comment
 app.set("view engine", "ejs");
 app.set("views", path.resolve("./views"));
 
